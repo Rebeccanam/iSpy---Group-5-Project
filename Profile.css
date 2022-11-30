@@ -1,0 +1,38 @@
+.profile {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282c34;
+    color: white;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.profile-logout {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    background-color: darkred;
+    border-radius: 10px;
+}
+
+.user-name {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.user-email {
+    font-size: 15px;
+    padding: 10px;
+}
